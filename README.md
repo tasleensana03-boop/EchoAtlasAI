@@ -1,8 +1,22 @@
 # 🌙 EchoAtlas AI
 
-> **AI-Powered Dream Interpretation Web Application**
+> **AI-Powered Dream Interpretation using Google Gemini AI**
 
-EchoAtlas AI is a full-stack AI-powered web application that interprets dreams using **Google Gemini AI**. Users can describe their dreams in natural language and receive insightful interpretations through a beautiful, immersive interface inspired by the night sky.
+EchoAtlas AI is an intelligent web application that analyzes dreams and provides detailed interpretations using **Google Gemini AI**. Built with a modern Aurora-inspired UI, it delivers meaningful dream insights through a clean and immersive user experience.
+
+---
+
+## 📸 Preview
+
+### 🌌 Home Page
+
+![Home](home.png)
+
+---
+
+### 🤖 Dream Analysis
+
+![Analysis](analysis.png)
 
 ---
 
@@ -10,63 +24,67 @@ EchoAtlas AI is a full-stack AI-powered web application that interprets dreams u
 
 - 🌙 AI-powered dream interpretation
 - 🤖 Google Gemini AI integration
-- ⚡ Real-time dream analysis
-- 🌌 Aurora-inspired animated background
-- ✨ Realistic animated star field
-- 💻 Responsive and modern UI
-- 🔒 Secure API key management using `.env`
-- 🎨 Smooth user experience built with React
+- 🎨 Beautiful Aurora animated background
+- ⭐ Realistic animated night sky
+- 💜 Modern glassmorphism UI
+- ⚡ Fast React + Vite frontend
+- 🐍 Flask backend API
+- 📱 Responsive design
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-| Frontend | Backend | AI | Tools |
-|----------|---------|----|------|
-| React.js | Flask | Google Gemini AI | Git |
-| Vite | Python | Gemini API | GitHub |
-| CSS3 | Flask-CORS | | VS Code |
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend |
+| Vite | React Build Tool |
+| Flask | Backend API |
+| Python | Backend Logic |
+| Google Gemini AI | Dream Analysis |
+| Tailwind CSS | Styling |
+| CSS Animations | Aurora & Stars |
 
 ---
 
 ## 📂 Project Structure
 
-```text
+```
 EchoAtlasAI
 │
 ├── backend
-│   ├── routes
-│   ├── services
-│   ├── utils
 │   ├── app.py
-│   ├── config.py
-│   └── requirements.txt
+│   ├── services
+│   ├── routes
+│   └── utils
 │
 ├── frontend
-│   ├── public
 │   ├── src
-│   │   ├── assets
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
+│   ├── public
+│   └── package.json
 │
+├── home.png
+├── analysis.png
 └── README.md
 ```
 
 ---
 
-## 🚀 Installation
+## ⚙ Installation
 
-### Clone the repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/tasleensana03-boop/EchoAtlasAI.git
 ```
 
-### Backend Setup
+### Go to Project
+
+```bash
+cd EchoAtlasAI
+```
+
+### Backend
 
 ```bash
 cd backend
@@ -80,7 +98,11 @@ pip install -r requirements.txt
 python app.py
 ```
 
-### Frontend Setup
+---
+
+### Frontend
+
+Open another terminal.
 
 ```bash
 cd frontend
@@ -92,25 +114,14 @@ npm run dev
 
 ---
 
-## 🔐 Environment Variables
+## 🚀 Future Improvements
 
-Create a `.env` file inside the **backend** folder.
-
-```env
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-```
-
----
-
-## 🌟 Future Enhancements
-
-- 📝 Dream Journal
-- 📜 Dream History
-- 📄 Download Dream Report as PDF
-- 👤 User Authentication
-- 😊 Mood Tracking
-- 🏷️ Dream Categories
-- 🌍 Multi-language Support
+- 🎨 AI-generated dream artwork
+- 🔐 User authentication
+- 📖 Dream history
+- 📊 Dream mood analytics
+- 🌍 Multi-language support
+- 📄 Download analysis as PDF
 
 ---
 
@@ -120,10 +131,10 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 
 Artificial Intelligence & Data Science Engineering Student
 
-Designed and Developed with ❤️ using **React**, **Flask**, and **Google Gemini AI**.
+Passionate about building AI-powered applications that combine creativity with technology.
 
 ---
 
-## ⭐ Support
+## ⭐ If you like this project
 
-If you like this project, consider giving it a ⭐ on GitHub!
+Please consider giving this repository a ⭐ on GitHub.

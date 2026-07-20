@@ -1,9 +1,11 @@
-# Backend
+# Python
 backend/venv/
-backend/__pycache__/
 backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
 
-# Frontend
+# Node
 frontend/node_modules/
 frontend/dist/
 
@@ -13,6 +15,6 @@ frontend/dist/
 # Logs
 *.log
 
-# OS Files
+# OS
 .DS_Store
 Thumbs.db
